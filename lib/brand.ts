@@ -8,8 +8,8 @@
  */
 export const brand = {
   // Trading name
-  name: 'Motor Accident Line',
-  domain: 'motor-accident-line.co.uk',
+  name: 'Accident Claims Team',
+  domain: 'accident-claims-team.co.uk',
   tagline: 'Road traffic accident claims',
 
   // Legal entity
@@ -24,7 +24,7 @@ export const brand = {
   // Contact
   phone: '0303 003 2160',
   phoneIntl: '+443030032160',
-  emailGeneral: 'enquiries@motor-accident-line.co.uk',
+  emailGeneral: 'enquiries@accident-claims-team.co.uk',
   emailComplaints: 'info@vmnw.co.uk',
 
   // Document versions
