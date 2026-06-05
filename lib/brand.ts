@@ -22,8 +22,8 @@ export const brand = {
   icoNumber: 'ZC009231',
 
   // Contact
-  phone: '0303 003 2160',
-  phoneIntl: '+443030032160',
+  phone: '0333 057 1071',
+  phoneIntl: '+443330571071',
   emailGeneral: 'enquiries@accident-claims-team.co.uk',
   emailComplaints: 'info@vmnw.co.uk',
 
