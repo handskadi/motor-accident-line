@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { GoogleTagManager } from '@next/third-parties/google';
+import Script from 'next/script';
 import { brand } from '@/lib/brand';
 import './globals.css';
 
@@ -26,7 +27,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <GoogleTagManager gtmId="GTM-K5MGJ27V" />
-      <body>{children}</body>
+      <body>
+        {children}
+        <Script id="gads-phone-conversion" strategy="afterInteractive">{`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('config', 'AW-18212955477/uAHKCICAtrkcENXKzuxD', {
+            'phone_conversion_number': '${brand.phone}'
+          });
+        `}</Script>
+      </body>
     </html>
   );
 }
