@@ -62,7 +62,7 @@ export default function Complaints() {
         </li>
         <li>
           <strong>By email:</strong>{' '}
-          <a href={emailComplaintsHref}>{brand.emailComplaints}</a> (please
+          <a href={emailComplaintsHref}>{brand.emailComplaints}</a>{' '}(please
           put &ldquo;Complaint&rdquo; in the subject line)
         </li>
         <li>
