@@ -3,7 +3,6 @@ import PolicyPage from '@/components/PolicyPage';
 import {
   brand,
   emailComplaintsHref,
-  phoneHref,
 } from '@/lib/brand';
 
 export const metadata: Metadata = {
@@ -57,9 +56,6 @@ export default function Complaints() {
         accept complaints in any reasonable form, including verbally.
       </p>
       <ul>
-        <li>
-          <strong>By phone:</strong> <a href={phoneHref}>{brand.phone}</a>
-        </li>
         <li>
           <strong>By email:</strong>{' '}
           <a href={emailComplaintsHref}>{brand.emailComplaints}</a>{' '}(please
